@@ -1,0 +1,64 @@
+[
+    {
+        "1": {
+            "support_ticket": {
+                "ticket_id": 120052,
+                "customer_email": "test@example.com",
+                "status": "open",
+                "subject": "Test subject",
+                "description": "Test description",
+                "classification": "RESEND_TICKET"
+            },
+            "llama_output": {
+                "id": "cmpl-c4cdeb89-3fac-4a54-a3f2-2873a9aa4b7a",
+                "object": "text_completion",
+                "created": 1696518220,
+                "model": "/Users/michele/Documents/Arbeit/Projektarbeit/support-agent/llama.cpp/models/7B/ggml-model-q4_1.gguf",
+                "choices": [
+                    {
+                        "text": " ",
+                        "index": 0,
+                        "logprobs": "null",
+                        "finish_reason": "length"
+                    }
+                ],
+                "usage": {
+                    "prompt_tokens": 684,
+                    "completion_tokens": 128,
+                    "total_tokens": 812
+                }
+            }
+        }
+    },
+    {
+        "2": {
+            "support_ticket": {
+                "ticket_id": 120052,
+                "customer_email": "test@example.com",
+                "status": "open",
+                "subject": "Test subject2",
+                "classification": "RESEND_TICKET"
+
+            },
+            "llama_output": {
+                "id": "cmpl-c4cdeb89-3fac-4a54-a3f2-2873a9aa4b7a",
+                "object": "text_completion",
+                "created": 1696518220,
+                "model": "/Users/michele/Documents/Arbeit/Projektarbeit/support-agent/llama.cpp/models/7B/ggml-model-q4_1.gguf",
+                "choices": [
+                    {
+                        "text": "",
+                        "index": 0,
+                        "logprobs": "null",
+                        "finish_reason": "length"
+                    }
+                ],
+                "usage": {
+                    "prompt_tokens": 684,
+                    "completion_tokens": 128,
+                    "total_tokens": 812
+                }
+            }
+        }
+    }
+]
